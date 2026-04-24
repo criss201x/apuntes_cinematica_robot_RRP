@@ -13,3 +13,17 @@ El producto interno se define como:
 $$\mathbf{u} \cdot \mathbf{v} = ac + bd + \cdots = \sum_{i=1}^{n} u_i v_i$$
 
 **Resultado:** siempre un escalar real — no un vector.
+
+---
+
+## Definición geométrica
+
+$$\mathbf{u} \cdot \mathbf{v} = \|\mathbf{u}\| \|\mathbf{v}\| \cos\theta$$
+
+donde $\theta$ es el ángulo entre los dos vectores.
+
+De aquí se puede despejar el ángulo:
+
+$$\theta = \cos^{-1}\left(\frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|}\right)$$
+
+---
