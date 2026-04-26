@@ -27,3 +27,11 @@ De aquí se puede despejar el ángulo:
 $$\theta = \cos^{-1}\left(\frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\mathbf{v}\|}\right)$$
 
 ---
+
+## Interpretación del signo
+
+| Resultado | Ángulo | Significado geométrico |
+|-----------|--------|------------------------|
+| $\mathbf{u} \cdot \mathbf{v} = 0$ | $\theta = 90°$ | Vectores **ortogonales** (perpendiculares) |
+| $\mathbf{u} \cdot \mathbf{v} > 0$ | $\theta < 90°$ | Ángulo agudo — apuntan en dirección similar |
+| $\mathbf{u} \cdot \mathbf{v} < 0$ | $\theta > 90°$ | Ángulo obtuso — apuntan en direcciones opuestas |
