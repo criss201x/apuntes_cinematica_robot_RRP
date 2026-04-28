@@ -35,3 +35,15 @@ $$\theta = \cos^{-1}\left(\frac{\mathbf{u} \cdot \mathbf{v}}{\|\mathbf{u}\| \|\m
 | $\mathbf{u} \cdot \mathbf{v} = 0$ | $\theta = 90°$ | Vectores **ortogonales** (perpendiculares) |
 | $\mathbf{u} \cdot \mathbf{v} > 0$ | $\theta < 90°$ | Ángulo agudo — apuntan en dirección similar |
 | $\mathbf{u} \cdot \mathbf{v} < 0$ | $\theta > 90°$ | Ángulo obtuso — apuntan en direcciones opuestas |
+
+---
+
+## Norma vectorial
+
+La norma es la "longitud" de un vector — Pitágoras generalizado a $n$ dimensiones:
+
+$$\|\mathbf{u}\| = \sqrt{a^2 + b^2 + c^2}$$
+
+Para los ejes cartesianos unitarios $\hat{x} = (1,0,0)$, $\hat{y} = (0,1,0)$, $\hat{z} = (0,0,1)$:
+
+$$\|\hat{x}\| = \|\hat{y}\| = \|\hat{z}\| = 1 \quad \text{(vectores unitarios)}$$
