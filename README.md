@@ -47,3 +47,22 @@ $$\|\mathbf{u}\| = \sqrt{a^2 + b^2 + c^2}$$
 Para los ejes cartesianos unitarios $\hat{x} = (1,0,0)$, $\hat{y} = (0,1,0)$, $\hat{z} = (0,0,1)$:
 
 $$\|\hat{x}\| = \|\hat{y}\| = \|\hat{z}\| = 1 \quad \text{(vectores unitarios)}$$
+
+
+---
+
+## Ejemplo resuelto
+
+$$\mathbf{u} = \begin{pmatrix} 1 \\ 1 \\ 0 \end{pmatrix}, \quad \mathbf{v} = \begin{pmatrix} 1 \\ 0 \\ 0 \end{pmatrix}$$
+
+**Paso 1 — Producto interno:**
+$$\mathbf{u} \cdot \mathbf{v} = (1)(1) + (1)(0) + (0)(0) = 1$$
+
+**Paso 2 — Normas:**
+$$\|\mathbf{u}\| = \sqrt{1^2 + 1^2 + 0^2} = \sqrt{2} \approx 1.41$$
+$$\|\mathbf{v}\| = \sqrt{1^2 + 0^2 + 0^2} = 1$$
+
+**Paso 3 — Ángulo:**
+$$\theta = \cos^{-1}\left(\frac{1}{1.41 \times 1}\right) = \cos^{-1}(0.70) \approx 45°$$
+
+*Interpretación:* $\mathbf{v}$ apunta sobre el eje X puro; $\mathbf{u}$ apunta en diagonal entre X e Y — exactamente 45°.
