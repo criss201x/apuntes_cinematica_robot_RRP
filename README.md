@@ -66,3 +66,17 @@ $$\|\mathbf{v}\| = \sqrt{1^2 + 0^2 + 0^2} = 1$$
 $$\theta = \cos^{-1}\left(\frac{1}{1.41 \times 1}\right) = \cos^{-1}(0.70) \approx 45°$$
 
 *Interpretación:* $\mathbf{v}$ apunta sobre el eje X puro; $\mathbf{u}$ apunta en diagonal entre X e Y — exactamente 45°.
+
+
+---
+
+## Caso especial: ortogonalidad de los ejes cartesianos
+
+$$\hat{x} \cdot \hat{y} = (1)(0) + (0)(1) + (0)(0) = 0 \implies \text{ortogonales}$$
+
+Los ejes X, Y, Z de cualquier sistema de coordenadas cartesiano son mutuamente ortogonales — su producto interno es siempre cero.
+
+---
+
+
+
