@@ -78,5 +78,20 @@ Los ejes X, Y, Z de cualquier sistema de coordenadas cartesiano son mutuamente o
 
 ---
 
+## Implementación en Python
 
+```python
+import numpy as np
 
+u = np.array([1, 1, 0])
+v = np.array([1, 0, 0])
+
+producto_interno = np.dot(u, v)                        # → 1
+norma_u          = np.linalg.norm(u)                   # → 1.4142
+norma_v          = np.linalg.norm(v)                   # → 1
+theta_grados     = np.degrees(np.arccos(np.dot(u,v) / (np.linalg.norm(u)*np.linalg.norm(v)))) # → 45°
+```
+
+> `np.degrees()` convierte radianes a **grados**. `np.arccos()` devuelve el ángulo en radianes.
+
+---
