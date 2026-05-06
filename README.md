@@ -95,3 +95,14 @@ theta_grados     = np.degrees(np.arccos(np.dot(u,v) / (np.linalg.norm(u)*np.lina
 > `np.degrees()` convierte radianes a **grados**. `np.arccos()` devuelve el ángulo en radianes.
 
 ---
+
+## Relevancia en robótica
+
+- Calcular el ángulo entre dos eslabones de un robot
+- Verificar si dos ejes articulares son perpendiculares
+- Proyectar fuerzas o velocidades sobre una dirección específica
+- Base para la construcción de matrices de rotación (módulo 3.2)
+
+---
+
+
