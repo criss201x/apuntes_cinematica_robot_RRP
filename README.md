@@ -104,5 +104,7 @@ theta_grados     = np.degrees(np.arccos(np.dot(u,v) / (np.linalg.norm(u)*np.lina
 - Base para la construcción de matrices de rotación (módulo 3.2)
 
 ---
+# Matrices de rotación
+> **Fuente:** MATLAB Aplicado a Robótica y Mecatrónica — Fernando Reyes Cortés (Cap. 3)
 
 
