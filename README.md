@@ -107,4 +107,16 @@ theta_grados     = np.degrees(np.arccos(np.dot(u,v) / (np.linalg.norm(u)*np.lina
 # Matrices de rotación
 > **Fuente:** MATLAB Aplicado a Robótica y Mecatrónica — Fernando Reyes Cortés (Cap. 3)
 
+---
 
+## Idea constructiva
+
+Las columnas de una matriz de rotación son los **destinos de cada eje coordenado** después de la rotación. Si rotas 90° alrededor de Z:
+
+- Eje X → $(0, 1, 0)$
+- Eje Y → $(-1, 0, 0)$
+- Eje Z → $(0, 0, 1)$ — no se mueve, es el eje de rotación
+
+$$R_z(90°) = \begin{pmatrix} 0 & -1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 1 \end{pmatrix}$$
+
+---
