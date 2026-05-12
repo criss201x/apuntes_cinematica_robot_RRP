@@ -145,4 +145,14 @@ $$R_z(\theta) = \begin{pmatrix} \cos\theta & -\sin\theta & 0 \\ \sin\theta & \co
 
 ---
 
+## Por qué $R_y$ tiene el signo invertido
 
+El orden cíclico dextrógiro es $X \to Y \to Z \to X$:
+
+- $R_z$: plano $X \to Y$ — orden natural
+- $R_x$: plano $Y \to Z$ — orden natural
+- $R_y$: plano $Z \to X$ — orden **invertido** respecto a $X \to Z$
+
+Mantener la regla de la mano derecha consistente obliga a voltear el signo negativo en $R_y$.
+
+---
