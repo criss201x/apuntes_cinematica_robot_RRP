@@ -156,3 +156,21 @@ El orden cíclico dextrógiro es $X \to Y \to Z \to X$:
 Mantener la regla de la mano derecha consistente obliga a voltear el signo negativo en $R_y$.
 
 ---
+
+## Propiedades fundamentales — grupo $SO(3)$
+
+Las matrices de rotación pertenecen al grupo especial ortogonal $SO(3)$, definido por:
+
+### 1. Ortogonalidad
+
+$$R \cdot R^T = I \implies R^{-1} = R^T$$
+
+Invertir una rotación es simplemente **transponerla** — geométricamente es el viaje de regreso. Computacionalmente muy eficiente.
+
+### 2. Determinante unitario
+
+$$\det(R) = +1$$
+
+Derivación: de $R \cdot R^T = I$ se sigue $\det(R)^2 = 1$, por tanto $\det(R) = \pm 1$. El $+1$ distingue rotaciones puras de reflexiones — en robótica siempre $+1$.
+
+---
