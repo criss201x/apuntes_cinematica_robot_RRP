@@ -174,3 +174,22 @@ $$\det(R) = +1$$
 Derivación: de $R \cdot R^T = I$ se sigue $\det(R)^2 = 1$, por tanto $\det(R) = \pm 1$. El $+1$ distingue rotaciones puras de reflexiones — en robótica siempre $+1$.
 
 ---
+
+## Regla de la mano derecha
+
+Para determinar el sentido positivo de rotación alrededor de un eje: apuntar el pulgar derecho en la dirección positiva del eje — los dedos indican el sentido positivo de rotación.
+
+Ejemplo: $R_x(90°)$ sobre $\mathbf{v} = (0,1,0)$: el pulgar apunta en $+X$, los dedos van de $Y$ hacia $Z$, entonces el vector termina en $(0, 0, 1)$.
+
+---
+
+## Resumen de propiedades
+
+| Propiedad | Expresión |
+|-----------|-----------|
+| Inversa = transpuesta | $R^{-1} = R^T$ |
+| Determinante | $\det(R) = +1$ |
+| Columnas ortonormales | cada columna es unitaria y ortogonal a las demás |
+| Conserva longitudes | $\|R\mathbf{v}\| = \|\mathbf{v}\|$ |
+
+---
