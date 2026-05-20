@@ -193,3 +193,9 @@ Ejemplo: $R_x(90°)$ sobre $\mathbf{v} = (0,1,0)$: el pulgar apunta en $+X$, los
 | Conserva longitudes | $\|R\mathbf{v}\| = \|\mathbf{v}\|$ |
 
 ---
+# Módulo 3.3 — Reglas de rotación compuesta
+> **Fuente:** MATLAB Aplicado a Robótica y Mecatrónica — Fernando Reyes Cortés (Cap. 3)
+
+---
+
+## Principio fundamental
