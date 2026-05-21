@@ -199,3 +199,11 @@ Ejemplo: $R_x(90°)$ sobre $\mathbf{v} = (0,1,0)$: el pulgar apunta en $+X$, los
 ---
 
 ## Principio fundamental
+
+La multiplicación de matrices de rotación **no es conmutativa**:
+
+$$R_z \cdot R_x \neq R_x \cdot R_z$$
+
+El orden en que se aplican las rotaciones define completamente la postura final. Este es uno de los conceptos más críticos de la cinemática de robots.
+
+---
