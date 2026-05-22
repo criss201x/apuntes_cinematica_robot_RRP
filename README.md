@@ -207,3 +207,11 @@ $$R_z \cdot R_x \neq R_x \cdot R_z$$
 El orden en que se aplican las rotaciones define completamente la postura final. Este es uno de los conceptos más críticos de la cinemática de robots.
 
 ---
+
+## Composición de rotaciones
+
+La rotación total de $n$ rotaciones aplicadas en secuencia es el producto matricial en orden de aplicación — **de derecha a izquierda**:
+
+$$R_{total} = R_n \cdots R_2 \cdot R_1$$
+
+$R_1$ se aplica primero, $R_n$ al final.
