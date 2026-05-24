@@ -215,3 +215,14 @@ La rotación total de $n$ rotaciones aplicadas en secuencia es el producto matri
 $$R_{total} = R_n \cdots R_2 \cdot R_1$$
 
 $R_1$ se aplica primero, $R_n$ al final.
+
+---
+
+## Dos interpretaciones según el marco de referencia
+
+| Interpretación | Marco | Orden de multiplicación |
+|---|---|---|
+| Ejes **fijos** (globales) | El marco no cambia | Pre-multiplicar: $R_{nuevo} = R_i \cdot R_{actual}$ |
+| Ejes **locales** (del cuerpo) | El marco gira con el cuerpo | Post-multiplicar: $R_{nuevo} = R_{actual} \cdot R_i$ |
+
+---
