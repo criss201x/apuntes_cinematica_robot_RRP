@@ -226,3 +226,14 @@ $R_1$ se aplica primero, $R_n$ al final.
 | Ejes **locales** (del cuerpo) | El marco gira con el cuerpo | Post-multiplicar: $R_{nuevo} = R_{actual} \cdot R_i$ |
 
 ---
+## Cadena cinemática
+
+Para un robot con articulaciones $R_1, R_2, R_3$ sobre **ejes locales**:
+
+$$R_{total} = R_1 \cdot R_2 \cdot R_3$$
+
+Lectura: $R_1$ se aplica primero. El eje de $R_2$ ya no es el eje global — es el eje que quedó después de que $R_1$ transformó el sistema. Cada articulación hereda el marco de la anterior.
+
+> En la convención D-H siempre se trabaja con ejes locales.
+
+---
