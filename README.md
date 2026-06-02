@@ -244,4 +244,3 @@ Rota un libro 90° sobre Z (lo giras en la mesa) y luego 90° sobre X (lo inclin
 
 ---
 
-## 3.4 — El problema de la traslación
