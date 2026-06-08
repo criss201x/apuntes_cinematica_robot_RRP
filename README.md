@@ -242,3 +242,9 @@ Lectura: $R_1$ se aplica primero. El eje de $R_2$ ya no es el eje global — es 
 
 Rota un libro 90° sobre Z (lo giras en la mesa) y luego 90° sobre X (lo inclinas hacia ti). Invierte el orden: primero 90° sobre X, luego 90° sobre Z. El resultado final es diferente — la orientación del libro no es la misma en ambos casos.
 
+
+# Módulos 3.4 y 3.5 — Traslación y transformaciones homogéneas
+> **Fuente:** MATLAB Aplicado a Robótica y Mecatrónica — Fernando Reyes Cortés (Cap. 3)
+
+---
+
