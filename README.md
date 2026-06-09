@@ -247,4 +247,13 @@ Rota un libro 90° sobre Z (lo giras en la mesa) y luego 90° sobre X (lo inclin
 > **Fuente:** MATLAB Aplicado a Robótica y Mecatrónica — Fernando Reyes Cortés (Cap. 3)
 
 ---
+## 3.4 — El problema de la traslación
+
+Una matriz de rotación $R$ de $3\times3$ solo puede rotar. Para describir la posición completa de un eslabón respecto a otro se necesita también trasladar:
+
+$$\mathbf{p}_1 = R \cdot \mathbf{p}_2 + \mathbf{d}$$
+
+donde $\mathbf{d} = (p_x, p_y, p_z)^T$ es el vector de traslación entre orígenes.
+
+**Problema:** esta operación mezcla multiplicación matricial con suma vectorial. No se pueden encadenar varias transformaciones como un producto simple — se rompe la posibilidad de tratar cada eslabón como un solo bloque matemático.
 
