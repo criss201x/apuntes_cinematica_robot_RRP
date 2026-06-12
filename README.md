@@ -257,3 +257,17 @@ donde $\mathbf{d} = (p_x, p_y, p_z)^T$ es el vector de traslación entre orígen
 
 **Problema:** esta operación mezcla multiplicación matricial con suma vectorial. No se pueden encadenar varias transformaciones como un producto simple — se rompe la posibilidad de tratar cada eslabón como un solo bloque matemático.
 
+
+---
+
+## 3.5 — Transformación homogénea
+
+### El truco algebraico
+
+Se extiende el espacio de 3D a 4D agregando una coordenada artificial igual a 1:
+
+$$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} \longrightarrow \tilde{\mathbf{p}} = \begin{pmatrix} x \\ y \\ z \\ 1 \end{pmatrix}$$
+
+Con esto, la operación $R\mathbf{p} + \mathbf{d}$ se convierte en una **sola multiplicación matricial**:
+
+$$\begin{pmatrix} \mathbf{p}_1 \\ 1 \end{pmatrix} = \underbrace{\begin{pmatrix} R & \mathbf{d} \\ \mathbf{0}^T & 1 \end{pmatrix}}_{T \ (4\times4)} \begin{pmatrix} \mathbf{p}_2 \\ 1 \end{pmatrix}$$
