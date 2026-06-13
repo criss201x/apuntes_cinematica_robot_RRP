@@ -271,3 +271,15 @@ $$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} \longrightarrow \tilde{
 Con esto, la operación $R\mathbf{p} + \mathbf{d}$ se convierte en una **sola multiplicación matricial**:
 
 $$\begin{pmatrix} \mathbf{p}_1 \\ 1 \end{pmatrix} = \underbrace{\begin{pmatrix} R & \mathbf{d} \\ \mathbf{0}^T & 1 \end{pmatrix}}_{T \ (4\times4)} \begin{pmatrix} \mathbf{p}_2 \\ 1 \end{pmatrix}$$
+
+### Estructura de la matriz $T$
+
+$$T = \begin{pmatrix} r_{11} & r_{12} & r_{13} & d_x \\ r_{21} & r_{22} & r_{23} & d_y \\ r_{31} & r_{32} & r_{33} & d_z \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
+
+| Bloque | Dimensión | Contenido |
+|---|---|---|
+| $R$ | $3\times3$ superior izquierda | Rotación pura |
+| $\mathbf{d}$ | $3\times1$ superior derecha | Traslación |
+| $\mathbf{0}^T$ | $1\times3$ inferior izquierda | Siempre ceros |
+| $1$ | escalar inferior derecha | Siempre 1 |
+
