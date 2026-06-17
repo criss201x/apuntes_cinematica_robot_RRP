@@ -288,3 +288,10 @@ $$T = \begin{pmatrix} r_{11} & r_{12} & r_{13} & d_x \\ r_{21} & r_{22} & r_{23}
 La fila $(\mathbf{0}^T \quad 1)$ garantiza que el producto de dos matrices homogéneas produce otra matriz homogénea con la misma estructura. La cadena se cierra sobre sí misma:
 
 $$T_{02} = T_{01} \cdot T_{12}$$
+
+Generalizado para una cadena de $n$ eslabones:
+
+$$T_{0n} = T_{01} \cdot T_{12} \cdots T_{n-1,n}$$
+
+Esta es la expresión central de la **cinemática directa**.
+
