@@ -302,3 +302,15 @@ $$T^{-1} = \begin{pmatrix} R^T & -R^T\mathbf{d} \\ \mathbf{0}^T & 1 \end{pmatrix
 Se aprovecha que $R^{-1} = R^T$ — no se necesita invertir la matriz completa.
 
 ---
+
+## Conexión con lo anterior
+
+| Módulo | Aporte a $T$ |
+|---|---|
+| 3.1 Producto interno | Define ortogonalidad — propiedad de las columnas de $R$ |
+| 3.2 Matrices de rotación | El bloque $R$ de $3\times3$ |
+| 3.3 Rotación compuesta | El orden del producto $T_{01} \cdot T_{12} \cdots$ |
+| 3.4 Traslación | El vector $\mathbf{d}$ y la motivación de la matriz $4\times4$ |
+| **3.5 Homogénea** | **Unifica todo en una sola operación matricial** |
+
+---
