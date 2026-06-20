@@ -295,3 +295,10 @@ $$T_{0n} = T_{01} \cdot T_{12} \cdots T_{n-1,n}$$
 
 Esta es la expresión central de la **cinemática directa**.
 
+### Inversa de una transformación homogénea
+
+$$T^{-1} = \begin{pmatrix} R^T & -R^T\mathbf{d} \\ \mathbf{0}^T & 1 \end{pmatrix}$$
+
+Se aprovecha que $R^{-1} = R^T$ — no se necesita invertir la matriz completa.
+
+---
