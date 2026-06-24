@@ -327,3 +327,6 @@ Se aprovecha que $R^{-1} = R^T$ — no se necesita invertir la matriz completa.
 |---|---|---|---|
 | R | Rotacional | Giro alrededor de un eje | $\theta_i$ |
 | P | Prismática | Traslación a lo largo de un eje | $d_i$ |
+
+### Grados de libertad (GDL)
+Número de articulaciones = número de variables independientes = dimensión del espacio de juntas.
