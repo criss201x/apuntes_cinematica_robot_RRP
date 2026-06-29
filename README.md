@@ -340,3 +340,11 @@ Número de articulaciones = número de variables independientes = dimensión del
 | Esférica | RRP | Esférico |
 | SCARA | RRP | Cilíndrico acotado |
 | Antropomórfica | RRR | Irregular (mayor alcance) |
+
+---
+
+## 4.2 — Convención Denavit-Hartenberg (D-H)
+
+### El problema que resuelve
+Dado un robot con $n$ articulaciones, D-H define un método sistemático para asignar marcos de referencia y construir cada matriz $T_{i-1,i}$ con exactamente **4 parámetros**.
+
