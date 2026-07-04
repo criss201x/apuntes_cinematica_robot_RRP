@@ -356,3 +356,13 @@ Dado un robot con $n$ articulaciones, D-H define un método sistemático para as
 | Desplazamiento | $d_i$ | Distancia a lo largo de $z_{i-1}$ hasta el origen del marco $i$ |
 | Ángulo de torsión | $\alpha_i$ | Ángulo entre $z_{i-1}$ y $z_i$ alrededor de $x_i$ |
 | Ángulo de articulación | $\theta_i$ | Ángulo de rotación alrededor de $z_{i-1}$ |
+
+**Regla clave:**
+- Articulación **R** → $\theta_i$ es la variable, $d_i$ constante
+- Articulación **P** → $d_i$ es la variable, $\theta_i$ constante
+
+
+
+
+
+
