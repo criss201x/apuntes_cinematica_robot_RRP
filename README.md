@@ -368,6 +368,16 @@ $$T_{i-1,i} = \begin{pmatrix} \cos\theta_i & -\sin\theta_i\cos\alpha_i & \sin\th
 - Bloque $3\times3$ superior izquierdo → rotación compuesta ($\theta_i$ y $\alpha_i$)
 - Columna superior derecha → traslación ($a_i$ y $d_i$)
 
+---
 
+## Aplicación al robot esférico (RRP)
+
+### Tabla D-H
+
+| Eslabón | $a_i$ | $d_i$ | $\alpha_i$ | $\theta_i$ | Variable |
+|---|---|---|---|---|---|
+| 1 (R) | $0$ | $d_1$ | $90°$ | $\theta_1$ | $\theta_1$ |
+| 2 (R) | $0$ | $0$ | $-90°$ | $\theta_2$ | $\theta_2$ |
+| 3 (P) | $0$ | $d_3$ | $0°$ | $0$ | $d_3$ |
 
 
