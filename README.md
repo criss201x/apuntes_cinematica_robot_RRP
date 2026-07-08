@@ -380,4 +380,6 @@ $$T_{i-1,i} = \begin{pmatrix} \cos\theta_i & -\sin\theta_i\cos\alpha_i & \sin\th
 | 2 (R) | $0$ | $0$ | $-90°$ | $\theta_2$ | $\theta_2$ |
 | 3 (P) | $0$ | $d_3$ | $0°$ | $0$ | $d_3$ |
 
+### Por qué $a_i = 0$ en todos los eslabones
+Los ejes de las tres articulaciones se **intersectan en un punto común** — por eso no hay distancia entre ejes. Esta es la condición geométrica que genera el espacio de trabajo esférico.
 
