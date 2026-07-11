@@ -383,3 +383,7 @@ $$T_{i-1,i} = \begin{pmatrix} \cos\theta_i & -\sin\theta_i\cos\alpha_i & \sin\th
 ### Por qué $a_i = 0$ en todos los eslabones
 Los ejes de las tres articulaciones se **intersectan en un punto común** — por eso no hay distancia entre ejes. Esta es la condición geométrica que genera el espacio de trabajo esférico.
 
+### Por qué $\alpha_1 = 90°$
+Sin la torsión de 90°, J1 y J2 girarían alrededor del mismo eje — se desperdiciaría un grado de libertad. El $\alpha_1 = 90°$ hace que J2 controle la elevación del brazo mientras J1 controla el giro horizontal.
+
+
