@@ -387,3 +387,12 @@ Los ejes de las tres articulaciones se **intersectan en un punto común** — po
 Sin la torsión de 90°, J1 y J2 girarían alrededor del mismo eje — se desperdiciaría un grado de libertad. El $\alpha_1 = 90°$ hace que J2 controle la elevación del brazo mientras J1 controla el giro horizontal.
 
 
+### Matrices individuales
+
+$$T_{01} = \begin{pmatrix} \cos\theta_1 & 0 & \sin\theta_1 & 0 \\ \sin\theta_1 & 0 & -\cos\theta_1 & 0 \\ 0 & 1 & 0 & d_1 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
+
+$$T_{12} = \begin{pmatrix} \cos\theta_2 & 0 & -\sin\theta_2 & 0 \\ \sin\theta_2 & 0 & \cos\theta_2 & 0 \\ 0 & -1 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
+
+$$T_{23} = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & d_3 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
+
+$T_{23}$ tiene el bloque de rotación igual a la identidad — la articulación prismática no rota, solo traslada a lo largo de $z_2$.
