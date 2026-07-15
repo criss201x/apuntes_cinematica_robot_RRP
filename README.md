@@ -396,3 +396,18 @@ $$T_{12} = \begin{pmatrix} \cos\theta_2 & 0 & -\sin\theta_2 & 0 \\ \sin\theta_2 
 $$T_{23} = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & d_3 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
 $T_{23}$ tiene el bloque de rotación igual a la identidad — la articulación prismática no rota, solo traslada a lo largo de $z_2$.
+
+### Cinemática directa
+$$T_{03} = T_{01}(\theta_1) \cdot T_{12}(\theta_2) \cdot T_{23}(d_3)$$
+
+---
+
+
+
+
+
+
+
+
+
+
