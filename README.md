@@ -417,6 +417,27 @@ $$c_i = \cos\theta_i \qquad s_i = \sin\theta_i$$
 
 ## Paso 1 — $T_{02} = T_{01} \cdot T_{12}$
 
+### Regla de composición de traslaciones
+
+$$\mathbf{d}_{02} = \mathbf{d}_{01} + R_{01} \cdot \mathbf{d}_{12}$$
+
+- $\mathbf{d}_{01}$: lleva del origen al marco 1
+- $R_{01} \cdot \mathbf{d}_{12}$: traslación del eslabón 2 rotada por la orientación del eslabón 1
+
+Como $\mathbf{d}_{12} = (0,0,0)^T$, la traslación de $T_{02}$ es simplemente $(0, 0, d_1)^T$.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
