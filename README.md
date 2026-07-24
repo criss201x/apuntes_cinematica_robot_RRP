@@ -430,7 +430,9 @@ Como $\mathbf{d}_{12} = (0,0,0)^T$, la traslación de $T_{02}$ es simplemente $(
 
 $$T_{02} = \begin{pmatrix} c_1 c_2 & -c_1 s_2 & -s_1 & 0 \\ s_1 c_2 & -s_1 s_2 & c_1 & 0 \\ -s_2 & -c_2 & 0 & d_1 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
+---
 
+## Paso 2 — $T_{03} = T_{02} \cdot T_{23}$
 
 
 
