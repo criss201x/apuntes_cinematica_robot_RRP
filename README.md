@@ -434,7 +434,9 @@ $$T_{02} = \begin{pmatrix} c_1 c_2 & -c_1 s_2 & -s_1 & 0 \\ s_1 c_2 & -s_1 s_2 &
 
 ## Paso 2 — $T_{03} = T_{02} \cdot T_{23}$
 
+$T_{23}$ solo traslada a lo largo de $z_2$ una distancia $d_3$. La tercera columna de $R_{02}$ es $(-s_1, \ c_1, \ 0)^T$, entonces:
 
+$$\mathbf{d}_{03} = \begin{pmatrix} 0 \\ 0 \\ d_1 \end{pmatrix} + d_3 \begin{pmatrix} -s_1 \\ c_1 \\ 0 \end{pmatrix} = \begin{pmatrix} -d_3 s_1 \\ d_3 c_1 \\ d_1 \end{pmatrix}$$
 
 
 
