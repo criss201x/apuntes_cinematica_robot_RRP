@@ -442,7 +442,9 @@ $$\mathbf{d}_{03} = \begin{pmatrix} 0 \\ 0 \\ d_1 \end{pmatrix} + d_3 \begin{pma
 
 $$\boxed{T_{03} = \begin{pmatrix} c_1 c_2 & -c_1 s_2 & -s_1 & -d_3 s_1 \\ s_1 c_2 & -s_1 s_2 & c_1 & d_3 c_1 \\ -s_2 & -c_2 & 0 & d_1 \\ 0 & 0 & 0 & 1 \end{pmatrix}}$$
 
+---
 
+## Posición del efector final
 
 
 
