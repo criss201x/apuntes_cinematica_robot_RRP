@@ -446,6 +446,9 @@ $$\boxed{T_{03} = \begin{pmatrix} c_1 c_2 & -c_1 s_2 & -s_1 & -d_3 s_1 \\ s_1 c_
 
 ## Posición del efector final
 
+La columna de traslación de $T_{03}$ da la posición cartesiana del efector:
+
+$$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} -d_3 \sin\theta_1 \\ d_3 \cos\theta_1 \\ d_1 \end{pmatrix}$$
 
 
 
