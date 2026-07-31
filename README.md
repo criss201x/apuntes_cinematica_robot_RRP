@@ -450,7 +450,9 @@ La columna de traslación de $T_{03}$ da la posición cartesiana del efector:
 
 $$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} -d_3 \sin\theta_1 \\ d_3 \cos\theta_1 \\ d_1 \end{pmatrix}$$
 
+---
 
+## Interpretación geométrica
 
 
 
