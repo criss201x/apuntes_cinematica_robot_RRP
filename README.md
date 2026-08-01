@@ -454,7 +454,11 @@ $$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} -d_3 
 
 ## Interpretación geométrica
 
-
+| Variable | Controla | Tipo de efecto |
+|---|---|---|
+| $\theta_1$ | Giro horizontal del brazo | Posición: $x$ e $y$ |
+| $d_3$ | Extensión del brazo | Posición: radio en $xy$ |
+| $\theta_2$ | Orientación del efector | Solo orientación — no posición |
 
 
 
