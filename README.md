@@ -460,6 +460,9 @@ $$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} -d_3 
 | $d_3$ | Extensión del brazo | Posición: radio en $xy$ |
 | $\theta_2$ | Orientación del efector | Solo orientación — no posición |
 
+### Por qué $\theta_2$ no afecta la posición
+
+El eje $z_2$ (dirección de extensión del brazo) está contenido en el plano $XY$ — siempre apunta al horizonte. $\theta_2$ rota el efector pero no desplaza su origen. Con $d_3$ fijo, el efector solo puede trazar un **círculo horizontal** de radio $d_3$ a altura $d_1$.
 
 
 
