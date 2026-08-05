@@ -464,6 +464,9 @@ $$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} -d_3 
 
 El eje $z_2$ (dirección de extensión del brazo) está contenido en el plano $XY$ — siempre apunta al horizonte. $\theta_2$ rota el efector pero no desplaza su origen. Con $d_3$ fijo, el efector solo puede trazar un **círculo horizontal** de radio $d_3$ a altura $d_1$.
 
+$\theta_2$ aparece en el bloque de rotación de $T_{03}$ pero no en la columna de traslación — es un grado de libertad de **orientación pura**.
+
+---
 
 
 
