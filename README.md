@@ -468,6 +468,9 @@ $\theta_2$ aparece en el bloque de rotación de $T_{03}$ pero no en la columna d
 
 ---
 
+## Espacio de trabajo
+
+
 
 
 
