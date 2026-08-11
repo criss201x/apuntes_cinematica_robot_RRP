@@ -472,5 +472,5 @@ $\theta_2$ aparece en el bloque de rotación de $T_{03}$ pero no en la columna d
 
 Con $d_{3,min} \leq d_3 \leq d_{3,max}$ y $\theta_1 \in [0°, 360°)$, el efector puede alcanzar cualquier punto de una **corona circular** a altura $z = d_1$.
 
-
+# Traslación y transformaciones homogéneas
 
