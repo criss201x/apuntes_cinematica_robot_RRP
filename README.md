@@ -474,3 +474,7 @@ Con $d_{3,min} \leq d_3 \leq d_{3,max}$ y $\theta_1 \in [0°, 360°)$, el efecto
 
 # Traslación y transformaciones homogéneas
 
+
+## 3.4 — El problema de la traslación
+
+Una matriz de rotación $R$ de $3\times3$ solo puede rotar. Para describir la posición completa de un eslabón respecto a otro se necesita también trasladar:
