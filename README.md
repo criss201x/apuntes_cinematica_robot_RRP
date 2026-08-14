@@ -478,3 +478,7 @@ Con $d_{3,min} \leq d_3 \leq d_{3,max}$ y $\theta_1 \in [0°, 360°)$, el efecto
 ## 3.4 — El problema de la traslación
 
 Una matriz de rotación $R$ de $3\times3$ solo puede rotar. Para describir la posición completa de un eslabón respecto a otro se necesita también trasladar:
+
+Una matriz de rotación $R$ de $3\times3$ solo puede rotar. Para describir la posición completa de un eslabón respecto a otro se necesita también trasladar:
+
+$$\mathbf{p}_1 = R \cdot \mathbf{p}_2 + \mathbf{d}$$
