@@ -482,3 +482,26 @@ Una matriz de rotación $R$ de $3\times3$ solo puede rotar. Para describir la po
 Una matriz de rotación $R$ de $3\times3$ solo puede rotar. Para describir la posición completa de un eslabón respecto a otro se necesita también trasladar:
 
 $$\mathbf{p}_1 = R \cdot \mathbf{p}_2 + \mathbf{d}$$
+
+
+**Problema:** esta operación mezcla multiplicación matricial con suma vectorial. No se pueden encadenar varias transformaciones como un producto simple — se rompe la posibilidad de tratar cada eslabón como un solo bloque matemático.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
