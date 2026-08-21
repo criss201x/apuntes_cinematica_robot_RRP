@@ -486,9 +486,15 @@ $$\mathbf{p}_1 = R \cdot \mathbf{p}_2 + \mathbf{d}$$
 
 **Problema:** esta operación mezcla multiplicación matricial con suma vectorial. No se pueden encadenar varias transformaciones como un producto simple — se rompe la posibilidad de tratar cada eslabón como un solo bloque matemático.
 
+---
 
-funciona??
+## 3.5 — Transformación homogénea
 
+### El truco algebraico
+
+Se extiende el espacio de 3D a 4D agregando una coordenada artificial igual a 1:
+
+$$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} \longrightarrow \tilde{\mathbf{p}} = \begin{pmatrix} x \\ y \\ z \\ 1 \end{pmatrix}$$
 
 
 
