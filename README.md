@@ -494,13 +494,6 @@ $$\mathbf{p}_1 = R \cdot \mathbf{p}_2 + \mathbf{d}$$
 
 Se extiende el espacio de 3D a 4D agregando una coordenada artificial igual a 1:
 
-$$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} \longrightarrow \tilde{\mathbf{p}} = \begin{pmatrix} x \\ y \\ z \\ 1 \end{pmatrix}$$
-
-
-
-
-
-
 
 
 
