@@ -498,6 +498,9 @@ $$\mathbf{p} = \begin{pmatrix} x \\ y \\ z \end{pmatrix} \longrightarrow \tilde{
 
 Con esto, la operación $R\mathbf{p} + \mathbf{d}$ se convierte en una **sola multiplicación matricial**:
 
+$$\begin{pmatrix} \mathbf{p}_1 \\ 1 \end{pmatrix} = \underbrace{\begin{pmatrix} R & \mathbf{d} \\ \mathbf{0}^T & 1 \end{pmatrix}}_{T \ (4\times4)} \begin{pmatrix} \mathbf{p}_2 \\ 1 \end{pmatrix}$$
+
+### Estructura de la matriz $T$
 
 
 
