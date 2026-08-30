@@ -505,7 +505,12 @@ $$\begin{pmatrix} \mathbf{p}_1 \\ 1 \end{pmatrix} = \underbrace{\begin{pmatrix} 
 
 $$T = \begin{pmatrix} r_{11} & r_{12} & r_{13} & d_x \\ r_{21} & r_{22} & r_{23} & d_y \\ r_{31} & r_{32} & r_{33} & d_z \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
-
+| Bloque | Dimensión | Contenido |
+|---|---|---|
+| $R$ | $3\times3$ superior izquierda | Rotación pura |
+| $\mathbf{d}$ | $3\times1$ superior derecha | Traslación |
+| $\mathbf{0}^T$ | $1\times3$ inferior izquierda | Siempre ceros |
+| $1$ | escalar inferior derecha | Siempre 1 |
 
 
 
