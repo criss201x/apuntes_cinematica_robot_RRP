@@ -518,5 +518,10 @@ La fila $(\mathbf{0}^T \quad 1)$ garantiza que el producto de dos matrices homog
 
 $$T_{02} = T_{01} \cdot T_{12}$$
 
+Generalizado para una cadena de $n$ eslabones:
+
+$$T_{0n} = T_{01} \cdot T_{12} \cdots T_{n-1,n}$$
+
+
 
 
