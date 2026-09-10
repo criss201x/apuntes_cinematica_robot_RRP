@@ -522,6 +522,9 @@ Generalizado para una cadena de $n$ eslabones:
 
 $$T_{0n} = T_{01} \cdot T_{12} \cdots T_{n-1,n}$$
 
+Esta es la expresión central de la **cinemática directa**.
+
+### Inversa de una transformación homogénea
 
 
 
