@@ -526,5 +526,6 @@ Esta es la expresión central de la **cinemática directa**.
 
 ### Inversa de una transformación homogénea
 
+$$T^{-1} = \begin{pmatrix} R^T & -R^T\mathbf{d} \\ \mathbf{0}^T & 1 \end{pmatrix}$$
 
 
