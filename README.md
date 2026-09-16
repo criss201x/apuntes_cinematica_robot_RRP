@@ -528,4 +528,21 @@ Esta es la expresión central de la **cinemática directa**.
 
 $$T^{-1} = \begin{pmatrix} R^T & -R^T\mathbf{d} \\ \mathbf{0}^T & 1 \end{pmatrix}$$
 
+Se aprovecha que $R^{-1} = R^T$ — no se necesita invertir la matriz completa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
