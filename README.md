@@ -544,19 +544,6 @@ Se aprovecha que $R^{-1} = R^T$ — no se necesita invertir la matriz completa.
 
 ---
 
-*Siguiente capítulo: **Cap. 4 — Cinemática directa con Denavit-Hartenberg***
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
