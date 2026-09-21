@@ -544,6 +544,7 @@ Se aprovecha que $R^{-1} = R^T$ — no se necesita invertir la matriz completa.
 
 ---
 
+# Módulos 4.1 y 4.2 — Clasificación de robots y convención Denavit-Hartenberg
 
 
 
