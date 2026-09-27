@@ -546,5 +546,17 @@ Se aprovecha que $R^{-1} = R^T$ — no se necesita invertir la matriz completa.
 
 # Módulos 4.1 y 4.2 — Clasificación de robots y convención Denavit-Hartenberg
 
+## 4.1 — Clasificación de robots industriales
+
+### Tipos de articulaciones
+
+| Símbolo | Tipo | Movimiento | Variable |
+|---|---|---|---|
+| R | Rotacional | Giro alrededor de un eje | $\theta_i$ |
+| P | Prismática | Traslación a lo largo de un eje | $d_i$ |
+
+
+
+
 
 
