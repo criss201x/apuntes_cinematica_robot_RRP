@@ -559,3 +559,11 @@ Se aprovecha que $R^{-1} = R^T$ — no se necesita invertir la matriz completa.
 Número de articulaciones = número de variables independientes = dimensión del espacio de juntas.
 
 ### Configuraciones canónicas
+
+| Configuración | Notación | Espacio de trabajo |
+|---|---|---|
+| Cartesiana | PPP | Cúbico |
+| Cilíndrica | RPP | Cilíndrico |
+| Esférica | RRP | Esférico |
+| SCARA | RRP | Cilíndrico acotado |
+| Antropomórfica | RRR | Irregular (mayor alcance) |
