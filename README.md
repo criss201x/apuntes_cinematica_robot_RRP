@@ -578,19 +578,6 @@ Dado un robot con $n$ articulaciones, D-H define un método sistemático para as
 
 ### Los 4 parámetros D-H
 
-| Parámetro | Símbolo | Qué describe |
-|---|---|---|
-| Longitud del eslabón | $a_i$ | Distancia entre ejes $z_{i-1}$ y $z_i$ a lo largo de $x_i$ |
-| Desplazamiento | $d_i$ | Distancia a lo largo de $z_{i-1}$ hasta el origen del marco $i$ |
-| Ángulo de torsión | $\alpha_i$ | Ángulo entre $z_{i-1}$ y $z_i$ alrededor de $x_i$ |
-| Ángulo de articulación | $\theta_i$ | Ángulo de rotación alrededor de $z_{i-1}$ |
-
-
-
-
-
-
-
 
 
 
