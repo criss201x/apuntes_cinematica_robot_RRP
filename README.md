@@ -593,6 +593,8 @@ Dado un robot con $n$ articulaciones, D-H define un método sistemático para as
 
 $$T_{i-1,i} = \begin{pmatrix} \cos\theta_i & -\sin\theta_i\cos\alpha_i & \sin\theta_i\sin\alpha_i & a_i\cos\theta_i \\ \sin\theta_i & \cos\theta_i\cos\alpha_i & -\cos\theta_i\sin\alpha_i & a_i\sin\theta_i \\ 0 & \sin\alpha_i & \cos\alpha_i & d_i \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
+- Bloque $3\times3$ superior izquierdo → rotación compuesta ($\theta_i$ y $\alpha_i$)
+- Columna superior derecha → traslación ($a_i$ y $d_i$)
 
 
 
