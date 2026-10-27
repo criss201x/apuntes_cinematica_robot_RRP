@@ -620,6 +620,7 @@ $$T_{01} = \begin{pmatrix} \cos\theta_1 & 0 & \sin\theta_1 & 0 \\ \sin\theta_1 &
 
 $$T_{12} = \begin{pmatrix} \cos\theta_2 & 0 & -\sin\theta_2 & 0 \\ \sin\theta_2 & 0 & \cos\theta_2 & 0 \\ 0 & -1 & 0 & 0 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
+$$T_{23} = \begin{pmatrix} 1 & 0 & 0 & 0 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 1 & d_3 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
 
 
 
