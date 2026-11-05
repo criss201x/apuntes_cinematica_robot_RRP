@@ -627,5 +627,6 @@ $T_{23}$ tiene el bloque de rotación igual a la identidad — la articulación 
 ### Cinemática directa
 $$T_{03} = T_{01}(\theta_1) \cdot T_{12}(\theta_2) \cdot T_{23}(d_3)$$
 
+# Módulo 4.3 — Cinemática directa: obtención de $T_{03}$
 
 
