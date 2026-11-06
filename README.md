@@ -629,4 +629,8 @@ $$T_{03} = T_{01}(\theta_1) \cdot T_{12}(\theta_2) \cdot T_{23}(d_3)$$
 
 # Módulo 4.3 — Cinemática directa: obtención de $T_{03}$
 
+## Objetivo
+
+Obtener una sola matriz $T_{03}$ que exprese la posición y orientación del efector en función de las tres variables articulares $\theta_1$, $\theta_2$ y $d_3$.
+
 
