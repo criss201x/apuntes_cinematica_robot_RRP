@@ -637,5 +637,8 @@ $$T_{03} = T_{01}(\theta_1) \cdot T_{12}(\theta_2) \cdot T_{23}(d_3)$$
 
 ---
 
+## Notación compacta
+
+$$c_i = \cos\theta_i \qquad s_i = \sin\theta_i$$
 
 
