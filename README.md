@@ -647,5 +647,9 @@ $$c_i = \cos\theta_i \qquad s_i = \sin\theta_i$$
 
 ### Regla de composición de traslaciones
 
+$$\mathbf{d}_{02} = \mathbf{d}_{01} + R_{01} \cdot \mathbf{d}_{12}$$
+
+- $\mathbf{d}_{01}$: lleva del origen al marco 1
+- $R_{01} \cdot \mathbf{d}_{12}$: traslación del eslabón 2 rotada por la orientación del eslabón 1
 
 
