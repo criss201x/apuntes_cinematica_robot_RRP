@@ -652,5 +652,11 @@ $$\mathbf{d}_{02} = \mathbf{d}_{01} + R_{01} \cdot \mathbf{d}_{12}$$
 - $\mathbf{d}_{01}$: lleva del origen al marco 1
 - $R_{01} \cdot \mathbf{d}_{12}$: traslación del eslabón 2 rotada por la orientación del eslabón 1
 
-
 Como $\mathbf{d}_{12} = (0,0,0)^T$, la traslación de $T_{02}$ es simplemente $(0, 0, d_1)^T$.
+
+
+### Resultado
+
+$$T_{02} = \begin{pmatrix} c_1 c_2 & -c_1 s_2 & -s_1 & 0 \\ s_1 c_2 & -s_1 s_2 & c_1 & 0 \\ -s_2 & -c_2 & 0 & d_1 \\ 0 & 0 & 0 & 1 \end{pmatrix}$$
+
+
